@@ -1,0 +1,6 @@
+com\saucedemo\automation\pages\CartPage.class
+com\saucedemo\automation\pages\ProductsPage.class
+com\saucedemo\automation\pages\LoginPage.class
+com\saucedemo\automation\CucumberRunnerTest.class
+com\saucedemo\automation\steps\CompraSteps.class
+com\saucedemo\automation\pages\CheckoutPage.class
