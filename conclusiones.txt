@@ -1,12 +1,12 @@
 # Hallazgos y Conclusiones del Ejercicio
 
 ### Hallazgos
-- El sitio web de Sauce Demo ofrece un flujo de compra estándar que es adecuado para la automatización de pruebas end-to-end.
+- El sitio web de SauceDemo ofrece un flujo de compra estándar que es adecuado para la automatización de pruebas end-to-end.
 - Se identificó un comportamiento en la página de confirmación donde el texto "Thank you for your order!" puede variar en su capitalización, lo que puede causar fallas de aserción si la validación es muy estricta.
 - El uso de la herramienta de automatización, en este caso Serenity BDD, ha demostrado ser muy útil para la creación y ejecución de pruebas automatizadas en proyectos de software.
 
 ### Conclusiones
-- Se logró automatizar exitosamente el flujo completo de inicio de sesión y compra de dos productos en Sauce Demo utilizando el framework Serenity BDD con Cucumber.
+- Se logró automatizar exitosamente el flujo completo de inicio de sesión y compra de dos productos en SauceDemo utilizando el framework Serenity BDD con Cucumber.
 - La separación de responsabilidades en la arquitectura de Page Objects y Step Definitions resultó en un código modular, legible y fácil de mantener.
 - La aserción final se ajustó para ser robusta ante variaciones en la capitalización del texto, garantizando que la prueba sea confiable.
 - Los reportes generados por Serenity BDD son muy útiles para el análisis de los resultados, ya que proporcionan una visión clara de cada paso de la prueba, incluyendo capturas de pantalla, lo que facilita la depuración y el entendimiento del flujo de negocio.
